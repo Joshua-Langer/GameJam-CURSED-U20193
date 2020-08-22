@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1626208169277179968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 354922425527710096}
+  - component: {fileID: 6194674801580047839}
+  - component: {fileID: 2644432496957171439}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &354922425527710096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626208169277179968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6194674801580047839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626208169277179968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18d657a3060c793488ce87f91affd1aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g_timeToDie: 0
+  g_levelsComplete: 0
+  g_gameIsPaused: 0
+--- !u!114 &2644432496957171439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626208169277179968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7a3659ff159de4f9ba51e7b22d0b09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  b_columns: 40
+  b_rows: 30
+  b_wallCount:
+    c_minimum: 150
+    c_maximum: 200
+  b_itemCount:
+    c_minimum: 8
+    c_maximum: 15
+  b_exit: {fileID: 5586285597955321927, guid: 92c5ea0013ebb0e448bb24295b63f163, type: 3}
+  b_healItem: {fileID: 2386162599806789589, guid: b29cb92c53c22ee46b7fbcaa4b649f2a,
+    type: 3}
+  b_floorTiles:
+  - {fileID: 956248298452927414, guid: 66ba7a8610c0d4c42990ac9d2e0794ff, type: 3}
+  - {fileID: 6543883519356575642, guid: 38974a133fe3764448cf061fa2037f34, type: 3}
+  - {fileID: 8739077072272750417, guid: 98656840336ef2246a79a50689bc7b9b, type: 3}
+  - {fileID: 6543883519356575642, guid: 38974a133fe3764448cf061fa2037f34, type: 3}
+  - {fileID: 763168157654859011, guid: 4a8ffbd692bd9f042880cc10ac0ef925, type: 3}
+  b_wallTiles:
+  - {fileID: 4660662700952631150, guid: 6ec9accf19359464fae2b083d01de291, type: 3}
+  b_itemTiles:
+  - {fileID: 3552091086358996406, guid: f905fa3b4db31f74dbd5dec63e102cf5, type: 3}
+  b_enemyTiles:
+  - {fileID: 5585686807654206365, guid: b34df96f37eba144995b4083fcf7c30a, type: 3}
+  b_outerWallTiles:
+  - {fileID: 5615473344560035101, guid: 397d6abca4487574da1b7a000927ea6e, type: 3}
+  b_boardContainer: {fileID: 0}
